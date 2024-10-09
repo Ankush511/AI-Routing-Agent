@@ -11,21 +11,23 @@ This project provides various AI-powered tools for text manipulation, including 
 - Python 3.8 or higher
 - Gemini LLM Model
 
-## Installation of Ollama and Requirements
+## Installation and Requirements
 
-1. Set Up a Virtual Environment in the Project Folder and Run the scripts given below:
-  * python -m venv venv
-  * source venv/bin/activate
+1. Clone this repository: `git clone https://github.com/Ankush511/AI-Routing-Agent.git`
 
-2. Install Required Libraries: pip install -r requirements.txt
+2. Set Up a Virtual Environment in the Project Folder and Run the scripts given below:
+  * `python -m venv venv`
+  * On Mac run this to activate the virtual environment - `source venv/bin/activate` or on Windows run this - `venv\Scripts\activate`
 
-3. Create an API_KEY and copy the key from Google AI Studio - https://aistudio.google.com/app/apikey
+3. Install Required Libraries: `pip install -r requirements.txt`
 
-4. Create a .env file in the project folder and paste the following into it:
-  GEMINI_API_KEY = <your-api-key>
+4. Create an API_KEY and copy the key from Google AI Studio - `https://aistudio.google.com/app/apikey`
+
+5. Create a .env file in the project folder and paste the following into it:
+  `GEMINI_API_KEY = <your-api-key>`
 
 ## Usage
 
-Run the command on CLI : python ai_routing_agent.py
+Run the command on CLI : `python ai_routing_agent.py`
 
 * Type your prompts and press Enter to get responses. Type 'exit' or 'quit' to terminate the program.
