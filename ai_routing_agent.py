@@ -175,11 +175,14 @@ def main():
         print("Welcome to the AI Routing Agent CLI! Type 'exit' or 'quit' to quit.")
         while True:
             prompt = input("Enter your prompt: ")
+            print('----------------------------------------------------------------')
             if prompt.lower() in ['exit', 'quit']:
                 print("Goodbye!")
                 break
             response = agent.route(prompt)
+            print('----------------------------------------------------------------')
             print(f"Result: {response}")
+            print('----------------------------------------------------------------')
 
 if __name__ == "__main__":
     main()
