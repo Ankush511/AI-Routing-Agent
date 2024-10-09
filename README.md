@@ -1,6 +1,6 @@
 # AI Tools Project
 
-This project provides various AI-powered tools for text manipulation, including summarization, funification, multiplication, and vowel counting. The tools utilize the LangChain library and the Ollama LLM model for their functionality.
+This project provides various AI-powered tools for text manipulation, including summarization, funification, multiplication, and vowel counting. The tools utilize the LangChain library and the Gemini LLM model for their functionality over the CLI.
 
 ## Table of Contents
 - Requirements
